@@ -1,3 +1,5 @@
+[![](glTF.png)](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0)
+
 # To glTF 2.0 converter
 
 2gltf2 is a command line tool based on [Blender](http://www.blender.org) and [Blender glTF 2.0 Importer and Exporter](https://github.com/KhronosGroup/glTF-Blender-IO) to convert from several 3D file formats to [glTF 2.0](https://www.khronos.org/gltf/).
