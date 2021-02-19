@@ -21,7 +21,8 @@ For other operating systems, please adapt `2gltf2.bat` to a shell script and/or 
 * [BLEND](https://www.blender.org/) Blender native file format  
 * [DAE](https://en.wikipedia.org/wiki/COLLADA) COLLADA  
 * [FBX](https://en.wikipedia.org/wiki/FBX) Filmbox  
-* [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Wavefront .obj  
+* [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Wavefront OBJ
+* [PLY](https://en.wikipedia.org/wiki/PLY_(file_format)) Polygon File Format 
 * [STL](https://en.wikipedia.org/wiki/STL_(file_format)) STL  
 
 

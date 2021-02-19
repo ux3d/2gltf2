@@ -53,7 +53,7 @@ for current_argument in sys.argv:
 
     current_basename, current_extension = os.path.splitext(current_argument)
 
-    if current_extension != ".blend" and current_extension != ".dae" and current_extension != ".fbx" and current_extension != ".obj" and current_extension != ".stl":
+    if current_extension != ".blend" and current_extension != ".dae" and current_extension != ".fbx" and current_extension != ".obj" and current_extension != ".ply" and current_extension != ".stl":
         continue
 
     bpy.ops.wm.read_factory_settings(use_empty=True)
@@ -72,6 +72,9 @@ for current_argument in sys.argv:
 
     if current_extension == ".obj":
         bpy.ops.import_scene.obj(filepath=current_argument)    
+
+    if current_extension == ".ply":
+        bpy.ops.import_mesh.ply(filepath=current_argument)    
 
     if current_extension == ".stl":
         bpy.ops.import_mesh.stl(filepath=current_argument)    
