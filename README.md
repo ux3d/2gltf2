@@ -8,13 +8,10 @@ Usage: `2gltf2.bat [filename]`
 
 ## Software Requirements
 
-* [Blender 2.91.x](https://www.blender.org/download/)  
-
-For other Blender versions, please adapt the path in `2gltf2.bat`.
-
+* [Blender 2.92.x](https://www.blender.org/download/)  
 * Windows
 
-For other operating systems, please adapt `2gltf2.bat` to a shell script and/or execute the Blender application with the given arguments found in `2gltf2.bat`.
+For other Blender versions and/or operating systems, please adapt `2gltf2.bat` to a shell script and/or execute the Blender application with the given arguments found in `2gltf2.bat`.
 
 ## Supported file extensions
 
