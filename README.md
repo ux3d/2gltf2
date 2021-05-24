@@ -2,27 +2,27 @@
 
 # To glTF 2.0 converter
 
-2gltf2 is a command line tool based on [Blender](http://www.blender.org) and [Blender glTF 2.0 Importer and Exporter](https://github.com/KhronosGroup/glTF-Blender-IO) to convert from several 3D file formats to [glTF 2.0](https://www.khronos.org/gltf/).
+2gltf2 is a command line tool based on [Blender](http://www.blender.org) and [Blender glTF 2.0 Importer and Exporter](https://github.com/KhronosGroup/glTF-Blender-IO) to convert from several 3D file formats to [glTF 2.0](https://www.khronos.org/gltf/).  
 
-Usage: `2gltf2.bat [filename]`
+Usage: `2gltf2.bat [filename]` on Windows or `./2gltf2.sh [filename]` on Linux.  
 
 ## Software Requirements
 
 * [Blender 2.92.x](https://www.blender.org/download/)  
-* Windows
+* Linux or  
+* Windows  
 
-For other Blender versions and/or operating systems, please adapt `2gltf2.bat` to a shell script and/or execute the Blender application with the given arguments found in `2gltf2.bat`.
+For other Blender versions and/or operating systems, please adapt `2gltf2.bat` or `2gltf2.sh`.  
 
 ## Supported file extensions
 
 * [BLEND](https://www.blender.org/) Blender native file format  
 * [DAE](https://en.wikipedia.org/wiki/COLLADA) COLLADA  
 * [FBX](https://en.wikipedia.org/wiki/FBX) Filmbox  
-* [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Wavefront OBJ
-* [PLY](https://en.wikipedia.org/wiki/PLY_(file_format)) Polygon File Format 
+* [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Wavefront OBJ  
+* [PLY](https://en.wikipedia.org/wiki/PLY_(file_format)) Polygon File Format  
 * [STL](https://en.wikipedia.org/wiki/STL_(file_format)) STL  
-
 
 ## View, inspect, edit, optimze and compose glTF
 
-To e.g. inspect the converted glTF, please try out [Gestaltor](https://gestaltor.io/).
+To e.g. inspect the converted glTF, please try out [Gestaltor](https://gestaltor.io/).  
