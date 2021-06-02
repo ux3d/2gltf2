@@ -54,13 +54,16 @@ for current_argument in sys.argv:
     root, current_extension = os.path.splitext(current_argument)
     current_basename = os.path.basename(root)
 
-    if current_extension != ".blend" and current_extension != ".dae" and current_extension != ".fbx" and current_extension != ".obj" and current_extension != ".ply" and current_extension != ".stl":
+    if current_extension != ".abc" and current_extension != ".blend" and current_extension != ".dae" and current_extension != ".fbx" and current_extension != ".obj" and current_extension != ".ply" and current_extension != ".stl":
         continue
 
     bpy.ops.wm.read_factory_settings(use_empty=True)
     print("Converting: '" + current_argument + "'")
 
     #
+
+    if current_extension == ".abc":
+        bpy.ops.wm.alembic_import(filepath=current_argument)    
 
     if current_extension == ".blend":
         bpy.ops.wm.open_mainfile(filepath=current_argument)

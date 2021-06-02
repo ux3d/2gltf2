@@ -16,6 +16,7 @@ For other Blender versions and/or operating systems, please adapt `2gltf2.bat` o
 
 ## Supported file extensions
 
+* [ABC](https://www.alembic.io/) Alembic  
 * [BLEND](https://www.blender.org/) Blender native file format  
 * [DAE](https://en.wikipedia.org/wiki/COLLADA) COLLADA  
 * [FBX](https://en.wikipedia.org/wiki/FBX) Filmbox  
