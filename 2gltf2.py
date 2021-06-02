@@ -51,7 +51,8 @@ for current_argument in sys.argv:
 
     #
 
-    current_basename, current_extension = os.path.splitext(current_argument)
+    root, current_extension = os.path.splitext(current_argument)
+    current_basename = os.path.basename(root)
 
     if current_extension != ".blend" and current_extension != ".dae" and current_extension != ".fbx" and current_extension != ".obj" and current_extension != ".ply" and current_extension != ".stl":
         continue

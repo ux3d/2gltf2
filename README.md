@@ -8,7 +8,7 @@ Usage: `2gltf2.bat [filename]` on Windows or `./2gltf2.sh [filename]` on Linux.
 
 ## Software Requirements
 
-* [Blender 2.92.x](https://www.blender.org/download/)  
+* [Blender 2.93.x](https://www.blender.org/download/)  
 * Linux or  
 * Windows  
 
