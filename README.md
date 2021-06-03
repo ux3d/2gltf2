@@ -9,10 +9,9 @@ Usage: `2gltf2.bat [filename]` on Windows or `./2gltf2.sh [filename]` on Linux.
 ## Software Requirements
 
 * [Blender 2.93.x](https://www.blender.org/download/)  
-* Linux or  
-* Windows  
+* Linux or Windows  
 
-For other Blender versions and/or operating systems, please adapt `2gltf2.bat` or `2gltf2.sh`.  
+For other Blender versions and/or operating systems, please adapt the path in `2gltf2.bat` or `2gltf2.sh`.  
 
 ## Supported file extensions
 
