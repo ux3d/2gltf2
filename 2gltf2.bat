@@ -7,7 +7,7 @@ GOTO END
 
 :USAGE
 ECHO To glTF 2.0 converter.
-ECHO Supported file formats: .abc .blend .dae .fbx. .obj .ply .stl
+ECHO Supported file formats: .abc .blend .dae .fbx. .obj .ply .stl .wrl .x3d
 ECHO. 
 ECHO 2gltf2.bat [filename]
 

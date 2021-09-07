@@ -22,6 +22,8 @@ For other Blender versions and/or operating systems, please adapt the path in `2
 * [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Wavefront OBJ  
 * [PLY](https://en.wikipedia.org/wiki/PLY_(file_format)) Polygon File Format  
 * [STL](https://en.wikipedia.org/wiki/STL_(file_format)) STL  
+* [WRL](https://en.wikipedia.org/wiki/VRML) VRML  
+* [X3D](https://en.wikipedia.org/wiki/X3D) X3D  
 
 ## View, inspect, edit, optimze and compose glTF
 
