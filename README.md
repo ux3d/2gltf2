@@ -8,7 +8,7 @@ Usage: `2gltf2.bat [filename]` on Windows or `./2gltf2.sh [filename]` on Linux.
 
 ## Software Requirements
 
-* [Blender 3.0.x Alpha](https://builder.blender.org/download/daily/)  
+* [Blender 3.0.x Beta](https://builder.blender.org/download/daily/)  
 * Linux or Windows  
 
 For other Blender versions and/or operating systems, please adapt the path in `2gltf2.bat` or `2gltf2.sh`.  
