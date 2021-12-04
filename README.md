@@ -8,7 +8,7 @@ Usage: `2gltf2.bat [filename]` on Windows or `./2gltf2.sh [filename]` on Linux.
 
 ## Software Requirements
 
-* [Blender 2.93.x](https://www.blender.org/download/)  
+* [Blender 3.0.x](https://blender.org/download)  
 * Linux or Windows  
 
 For other Blender versions and/or operating systems, please adapt the path in `2gltf2.bat` or `2gltf2.sh`.  
@@ -22,9 +22,10 @@ For other Blender versions and/or operating systems, please adapt the path in `2
 * [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Wavefront OBJ  
 * [PLY](https://en.wikipedia.org/wiki/PLY_(file_format)) Polygon File Format  
 * [STL](https://en.wikipedia.org/wiki/STL_(file_format)) STL  
+* [USD](https://en.wikipedia.org/wiki/Universal_Scene_Description) USD, USDA and USDC  
 * [WRL](https://en.wikipedia.org/wiki/VRML) VRML  
 * [X3D](https://en.wikipedia.org/wiki/X3D) X3D  
 
 ## View, inspect, edit, optimze and compose glTF
 
-To e.g. inspect the converted glTF, please try out [Gestaltor](https://gestaltor.io/).  
+To inspect or optimize the converted glTF, please try out [Gestaltor](https://gestaltor.io/).  
