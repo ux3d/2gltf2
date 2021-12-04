@@ -8,7 +8,7 @@ Usage: `2gltf2.bat [filename]` on Windows or `./2gltf2.sh [filename]` on Linux.
 
 ## Software Requirements
 
-* [Blender 3.0.x Beta](https://builder.blender.org/download/daily/)  
+* [Blender 3.0.x](https://blender.org/download)  
 * Linux or Windows  
 
 For other Blender versions and/or operating systems, please adapt the path in `2gltf2.bat` or `2gltf2.sh`.  
@@ -28,4 +28,4 @@ For other Blender versions and/or operating systems, please adapt the path in `2
 
 ## View, inspect, edit, optimze and compose glTF
 
-To e.g. inspect the converted glTF, please try out [Gestaltor](https://gestaltor.io/).  
+To inspect or optimize the converted glTF, please try out [Gestaltor](https://gestaltor.io/).  
